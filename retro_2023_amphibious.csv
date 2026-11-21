@@ -1,9 +1,0 @@
-file,TOTAL_F1,abstract_classes_F1,associations_F1,attributes_F1,classes_F1,enums_F1,exact,generalizations_F1,mult_ok,operations_F1
-logbook_2023/P1_amphibious_1.puml,0.53,0.0,,0.25,1.0,0.0,False,0.67,0/0,0.33
-logbook_2023/P2_amphibious_1.puml,0.65,0.0,,0.73,1.0,0.0,False,0.57,0/0,0.33
-logbook_2023/P2_amphibious_2.puml,0.69,1.0,,0.73,1.0,0.0,False,0.57,0/0,0.33
-logbook_2023/P2_amphibious_3.puml,0.59,0.0,0.0,0.88,0.89,1.0,False,0.0,0/0,0.33
-logbook_2023/P2_amphibious_4.puml,0.77,0.0,0.0,0.88,0.89,1.0,False,1.0,0/0,0.33
-logbook_2023/P2_amphibious_5.puml,0.85,0.0,0.0,1.0,1.0,1.0,False,1.0,0/0,0.33
-logbook_2023/P4_amphibious_1.puml,0.79,1.0,,0.71,1.0,1.0,False,0.57,0/0,1.0
-logbook_2023/P4_amphibious_2.puml,0.83,1.0,,0.8,1.0,1.0,False,0.57,0/0,1.0
