@@ -1,0 +1,15 @@
+' Modeli synim: Video club (JT2) – transkriptuar nga images/JT2.png
+' Burimi: github.com/atenearesearchgroup/chatgpt-uml (IntentModels.md, VideoStore2); Cámara et al. (2023), Fig. 4, f. 787
+@startuml
+class VideoStore {
+  name : String
+}
+class Client {
+  name : String
+}
+class Movie {
+  name : String
+}
+VideoStore "*" -- "*" Client : clients
+VideoStore "*" o-- "*" Movie : rents
+@enduml

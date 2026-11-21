@@ -1,0 +1,19 @@
+' Modeli synim: Airlines (LB5) – transkriptuar nga images/LB5.png
+' Burimi: github.com/atenearesearchgroup/chatgpt-uml (IntentModels.md, Airlines-AC); Cámara et al. (2023), Fig. 4, f. 787
+@startuml
+class Airline {
+  name : String
+}
+class Airport {
+  code : String
+  city : String
+}
+class Details {
+  operatingCost : Real
+  start()
+  stop()
+  updateCost(newCost : Real)
+}
+Airline "*" -- "*" Airport : operates
+(Airline, Airport) .. Details
+@enduml

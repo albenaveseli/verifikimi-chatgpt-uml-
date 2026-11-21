@@ -1,0 +1,25 @@
+
+@startuml
+
+class Airline {
+    - name: String
+}
+
+class Airport {
+    - code: String
+    - city: String
+}
+
+class AirlineOperation {
+    - operatingCost: Decimal
+    - startTime: DateTime
+    - endTime: DateTime
+    + startOperation(): void
+    + stopOperation(): void
+    + updateOperatingCost(newCost: Decimal): void
+}
+
+Airline "1" -- "0..*" AirlineOperation : operates
+Airport "1" -- "0..*" AirlineOperation : hosts
+
+@enduml

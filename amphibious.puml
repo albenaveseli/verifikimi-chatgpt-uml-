@@ -1,0 +1,24 @@
+' Modeli synim: Amphibious (AV1) – transkriptuar nga images/Amphibious-CD.png
+' Burimi: github.com/atenearesearchgroup/chatgpt-uml (IntentModels.md, Amphibious); Cámara et al. (2023), Fig. 4, f. 787
+' Shenim: kufizimet OCL te modelit synim nuk vleresohen nga ky skript.
+@startuml
+abstract class Vehicle {
+  position : Integer
+  speed : Integer
+  maxSpeed : Integer
+  environment : Environment
+  move(time : Integer)
+}
+enum Environment {
+  land
+  water
+  air
+}
+class LandVehicle
+class MarineVehicle
+class AmphibiousVehicle
+Vehicle <|-- LandVehicle
+Vehicle <|-- MarineVehicle
+LandVehicle <|-- AmphibiousVehicle
+MarineVehicle <|-- AmphibiousVehicle
+@enduml
