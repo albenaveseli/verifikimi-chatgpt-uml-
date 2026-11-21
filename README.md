@@ -74,7 +74,7 @@ ekzekutoni komandat e nivelit C.
 
 ## Protokolli i eksperimentit 2026
 - Data: 21.11.2026; ChatGPT, Temporary Chat (pa memorie dhe pa histori).
-- Modeli: _[shkruani emrin që shfaqej në ChatGPT]_
+- Modeli: _GPT-6_
 - 3 ushtrime × 3 biseda të reja; një prompt i vetëm, pa korrigjime.
 - Prompt-et janë marrë fjalë për fjalë nga logbook-u i pjesëmarrësit 2 (shih `prompts.md`).
 - Sinonim i trajtuar me `--alias`: `maximumSpeed` = `maxSpeed` (Amphibious, run1).
